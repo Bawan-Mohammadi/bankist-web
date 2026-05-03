@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script
+      type="text/javascript"
+      src="/___vscode_livepreview_injected_script"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bankist Website</title>
+    <link rel="stylesheet" type="text/css" href="bankist-web.css" />
+    <script defer src="bankist-web.js"></script>
+  </head>
+  <body>
+    <div class="modal-blur"></div>
+    <div class="open-account-modal">
+      <div class="modal-close-holder">
+        <button class="modal-close">&times;</button>
+      </div>
+      <h3 class="modal-h">
+        Open your account<br />
+        in just <span class="modal-h-green-highlight">5 minutes</span>
+      </h3>
+      <div class="modal-label-inputs">
+        <div>
+          <label class="modal-label">First Name</label>
+          <input class="modal-inputs name" type="text" />
+        </div>
+        <div>
+          <label class="modal-label">Last Name</label>
+          <input class="modal-inputs name" type="text" />
+        </div>
+
+        <div>
+          <label class="modal-label">Email Address</label>
+          <input class="modal-inputs" type="text" />
+        </div>
+      </div>
+      <div class="flex-utility sign-up-holder">
+        <button class="sign-up-button">Sign Up</button>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <div class="nav-grid">
+        <img class="logo" src="logo(1).png" alt="logo" />
+        <div class="nav-right-side">
+          <a class="nav-link" href=".section-one">Features</a>
+          <a class="nav-link" href=".section-two">Operations</a>
+          <a class="nav-link" href=".section-three">Testimonials</a>
+          <button class="nav-button open-account">Open account</button>
+        </div>
+      </div>
+    </nav>
+    <div class="sections-container">
+      <section class="header">
+        <div class="header-container">
+          <div>
+            <h1 class="header-h1">
+              When <span class="green-highlight">banking</span> meets <br />
+              <span class="green-highlight">minimalist</span>
+            </h1>
+            <p class="header-under-h1">
+              A simpler banking experience for a simpler life.
+            </p>
+            <button class="learn-more">Learn more ↓</button>
+          </div>
+
+          <img src="hero.png" alt="Computer" class="hero-image" />
+        </div>
+      </section>
+
+      <section class="section-one section">
+        <div class="sections-border-bottom"></div>
+        <div>
+          <p class="sections-green-title">FEATURES</p>
+          <p class="sections-under-green-title">
+            Everything you need in a modern bank <br />
+            and more.
+          </p>
+        </div>
+        <div class="section-one-pics-text flex-utility">
+          <img
+            class="section-one-monitor-pic lazy-img"
+            src="digital-lazy.jpg"
+            data-src="digital.jpg"
+            alt="Computer"
+          />
+          <div class="section-one-monitor-text">
+            <div class="section-one-icon-holder flex-utility">
+              <svg>
+                <use xlink:href="icons.svg#icon-monitor"></use>
+              </svg>
+            </div>
+            <p class="section-one-p-head">100% digital bank</p>
+            <p class="sections-p">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+              aliassint quos? Accusantium a fugiat porro reiciendis saepe
+              quibusdam debitis ducimus.
+            </p>
+          </div>
+        </div>
+        <div class="section-one-pics-text flex-utility">
+          <div>
+            <div class="section-one-icon-holder flex-utility">
+              <svg>
+                <use xlink:href="icons.svg#icon-trending-up"></use>
+              </svg>
+            </div>
+            <p class="section-one-p-head">Watch your money grow</p>
+            <p class="sections-p">
+              Nesciunt quos autem dolorum voluptates cum dolores dicta fuga
+              inventore ab? Nulla incidunt eius numquam sequi iste pariatur
+              quibusdam!
+            </p>
+          </div>
+          <div>
+            <img
+              class="section-one-other-pics lazy-img"
+              src="grow-lazy.jpg"
+              data-src="grow.jpg"
+              alt="plant"
+            />
+          </div>
+        </div>
+        <div class="section-one-pics-text flex-utility">
+          <img
+            class="section-one-other-pics lazy-img"
+            src="card-lazy.jpg"
+            data-src="card.jpg"
+            alt="debit card"
+          />
+          <div class="section-one-monitor-text-icon">
+            <div class="section-one-icon-holder flex-utility">
+              <svg>
+                <use xlink:href="icons.svg#icon-credit-card"></use>
+              </svg>
+            </div>
+            <p class="section-one-p-head">Free debit card included</p>
+            <p class="sections-p">
+              Quasi, fugit in cumque cupiditate reprehenderit debitis animi enim
+              eveniet consequatur odit quam quos possimus assumenda dicta fuga
+              inventore ab.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="sections-flex section-two section">
+        <div class="sections-border-bottom"></div>
+        <div>
+          <p class="sections-green-title">OPERATIONS</p>
+          <p class="sections-under-green-title">
+            Everything as simple as possible, but <br />
+            no simpler.
+          </p>
+        </div>
+        <div class="section-two-buttons-holder">
+          <button
+            class="section-two-button-one section-two-buttons section-two-buttons--active"
+            data-tab="1"
+          >
+            01 Instant Transfers
+          </button>
+          <button
+            class="section-two-button-two section-two-buttons"
+            data-tab="2"
+          >
+            02 Instant Loans
+          </button>
+          <button
+            class="section-two-button-three section-two-buttons"
+            data-tab="3"
+          >
+            03 Instant Closing
+          </button>
+        </div>
+        <div
+          class="section-two-text-holder section-two-text-holder--1 section-two-text-holder--active"
+        >
+          <div class="upload-icon flex-utility">
+            <svg>
+              <use xlink:href="icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <div>
+            <h5 class="section-two-white-box-h">
+              Tranfser money to anyone, instantly! No fees, no BS.
+            </h5>
+            <p class="sections-p section-two-p">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+        <div class="section-two-text-holder section-two-text-holder--2">
+          <div class="instant-loan-icon flex-utility">
+            <svg>
+              <use xlink:href="icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <div>
+            <h5 class="section-two-white-box-h">
+              Buy a home or make your dreams come true, with instant loans.
+            </h5>
+            <p class="sections-p section-two-p">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat non proident, sunt in culpa qui officia deserunt mollit
+              anim id est laborum.
+            </p>
+          </div>
+        </div>
+        <div class="section-two-text-holder section-two-text-holder--3">
+          <div class="instant-closing-icon flex-utility">
+            <svg>
+              <use xlink:href="icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <div>
+            <h5 class="section-two-white-box-h">
+              No longer need your account? No problem! Close it instantly.
+            </h5>
+            <p class="sections-p section-two-p">
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo consequat.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="sections-flex section-three section">
+        <div class="sections-border-bottom"></div>
+        <div>
+          <p class="sections-green-title">NOT SURE YET?</p>
+          <p class="sections-under-green-title">
+            Millions of Bankists are already making <br />
+            their lives simpler.
+          </p>
+        </div>
+        <div class="slider">
+          <div class="slide">
+            <div class="testimonial">
+              <h5 class="section-three-comments-h">
+                Best financial decision ever!
+              </h5>
+
+              <div>
+                <p class="sections-p section-three-p flex-utility">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Accusantium quas quisquam non? Quas voluptate nulla minima
+                  deleniti optio ullam nesciunt, numquam corporis et asperiores
+                  laboriosam sunt, praesentium suscipit blanditiis.
+                  Necessitatibus id alias reiciendis, perferendis facere
+                  pariatur dolore veniam autem esse non voluptatem saepe
+                  provident nihil molestiae.
+                </p>
+              </div>
+              <div class="section-three-user">
+                <img
+                  class="section-three-user-picture"
+                  src="user-1.jpg"
+                  alt="profile picture"
+                />
+                <div>
+                  <h5 class="section-three-user-name">Aarav Lynn</h5>
+                  <p class="section-three-user-address">San Francisco, USA</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="testimonial">
+              <h5 class="section-three-comments-h">
+                The last step to becoming a complete minimalist
+              </h5>
+
+              <p class="sections-p section-three-p">
+                Quisquam itaque deserunt ullam, quia ea repellendus provident,
+                ducimus neque ipsam modi voluptatibus doloremque, corrupti
+                laborum. Incidunt numquam perferendis veritatis neque
+                repellendus. Lorem, ipsum dolor sit amet consectetur adipisicing
+                elit. Illo deserunt exercitationem deleniti.
+              </p>
+
+              <div class="section-three-user">
+                <img
+                  class="section-three-user-picture"
+                  src="user-2.jpg"
+                  alt="profile picture"
+                />
+                <div>
+                  <h5 class="section-three-user-name">Miyah Miles</h5>
+                  <p class="section-three-user-address">London, UK</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="testimonial">
+              <h5 class="section-three-comments-h">
+                Finally free from old-school banks
+              </h5>
+
+              <p class="sections-p section-three-p">
+                Debitis, nihil sit minus suscipit magni aperiam vel tenetur
+                incidunt commodi architecto numquam omnis nulla autem,
+                necessitatibus blanditiis modi similique quidem. Odio aliquam
+                culpa dicta beatae quod maiores ipsa minus consequatur error
+                sunt, deleniti saepe aliquid quos inventore sequi.
+                Necessitatibus id alias reiciendis, perferendis facere.
+              </p>
+
+              <div class="section-three-user">
+                <img
+                  class="section-three-user-picture"
+                  src="user-3.jpg"
+                  alt="profile picture"
+                />
+                <div>
+                  <h5 class="section-three-user-name">Francisco Gomes</h5>
+                  <p class="section-three-user-address">Lisbon, Portugal</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="section-three-arrows-button flex-utility left-btn">
+            ←
+          </button>
+          <button class="section-three-arrows-button flex-utility right-btn">
+            →
+          </button>
+        </div>
+        <div class="section-three-dots-container">
+          <button
+            class="section-three-dots section-three-dots--active"
+            data-slide="0"
+          ></button>
+          <button class="section-three-dots" data-slide="1"></button>
+          <button class="section-three-dots" data-slide="2"></button>
+        </div>
+        <div class="section-three-bottom"></div>
+      </section>
+    </div>
+    <section class="section-four section">
+      <div>
+        <h3 class="section-four-h">
+          The best day to join Bankist was one <br />
+          year ago. The second best is today!
+        </h3>
+        <div class="flex-utility section-four-open-account-holder">
+          <button class="section-four-open-account">
+            Open your free account today!
+          </button>
+        </div>
+      </div>
+      <div class="section-four-border-bottom"></div>
+      <footer class="footer">
+        <div class="footer-buttons-holder flex-utility">
+          <button class="footer-buttons">About</button>
+          <button class="footer-buttons">Pricing</button>
+          <button class="footer-buttons">Terms of Use</button>
+          <button class="footer-buttons">Privacy Policy</button>
+          <button class="footer-buttons">Careers</button>
+          <button class="footer-buttons">Blog</button>
+          <button class="footer-buttons">Contact Us</button>
+        </div>
+        <div class="flex-utility">
+          <img class="footer-logo" src="icon(1).png" alt="logo" />
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
